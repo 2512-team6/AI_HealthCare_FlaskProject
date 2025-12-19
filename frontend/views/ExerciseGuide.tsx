@@ -134,7 +134,7 @@ const ExerciseGuide: React.FC = () => {
 
             {/* 부위명 텍스트 */}
             <div className="absolute bottom-6 left-6 text-white">
-              <h2 className="text-3xl font-bold">
+              <h2 className="text-3xl font-bold text-emerald-400">
                 {PARTS.find(p => p.id === selectedPart)?.name}
               </h2>
               <p className="text-sm opacity-90">
@@ -156,8 +156,8 @@ const ExerciseGuide: React.FC = () => {
                   {/* <span className="text-xs text-emerald-600 font-semibold">
                     {ex.part_name}
                   </span> */}
-                  <h3 className="font-bold text-lg mt-1">{ex.name}</h3>
-                  <p className="text-sm text-slate-600">{ex.summary}</p>
+                  <h3 className="font-bold text-[13px] mt-1 text-emerald-600">{ex.name}</h3>
+                  <p className="text-[12px] text-slate-600">{ex.summary}</p>
                   <p className="text-xs text-slate-500 mt-2">
                     MET {ex.met} · {ex.difficulty} · {ex.equipment}
                   </p>
@@ -171,7 +171,7 @@ const ExerciseGuide: React.FC = () => {
           3️⃣ 운동 상세 (🔥 1번째 이미지 그대로)
       ===================== */}
       {selectedExercise && (
-        <div className="bg-white p-8 rounded-2xl border space-y-8">
+        <div className="space-y-5">
           <button
             onClick={() => setSelectedExercise(null)}
             className="text-emerald-600 hover:underline"
@@ -179,47 +179,88 @@ const ExerciseGuide: React.FC = () => {
             ← 목록으로
           </button>
 
-          <div>
-            <span className="text-sm text-emerald-600 font-semibold">
+          {/* ===== 상단 요약 카드 ===== */}
+          <div className="bg-white p-8 rounded-2xl border space-y-4">
+            <span className="inline-block text-xs px-3 py-1 rounded-full bg-emerald-100 text-emerald-700 font-semibold">
               {selectedExercise.part_name}
             </span>
-            <h2 className="text-3xl font-bold">{selectedExercise.name}</h2>
-            <p className="text-slate-600">{selectedExercise.summary}</p>
-            <p className="text-sm text-slate-500 mt-2">
-              MET {selectedExercise.met} · {selectedExercise.difficulty} · {selectedExercise.equipment}
+
+            <h2 className="text-2xl font-bold text-slate-900">
+              {selectedExercise.name}
+            </h2>
+
+            <p className="text-[14px] text-slate-600">
+              {selectedExercise.summary}
+            </p>
+
+            {/* 메타 정보 */}
+            <div className="flex flex-wrap gap-2 text-xs text-slate-600 mt-2">
+              <span className="px-3 py-1 bg-slate-100 rounded-full">
+                MET {selectedExercise.met}
+              </span>
+              <span className="px-3 py-1 bg-slate-100 rounded-full">
+                {selectedExercise.difficulty}
+              </span>
+              <span className="px-3 py-1 bg-slate-100 rounded-full">
+                {selectedExercise.equipment}
+              </span>
+            </div>
+          </div>
+
+          {/* ===== 운동 코칭 ===== */}
+          <div className="bg-emerald-50 p-6 rounded-2xl space-y-2">
+            <h3 className="text-lg font-bold text-emerald-700">운동 코칭</h3>
+
+            <p className="text-[14px]">
+              <strong className="text-slate-700">호흡</strong> · {selectedExercise.guide.breathing}
+            </p>
+            <p className="text-[14px]">
+              <strong className="text-slate-700">자세 팁</strong> · {selectedExercise.guide.posture_tip}
+            </p>
+            <p className="text-[13px] text-red-600">
+              ⚠ {selectedExercise.guide.common_mistake}
             </p>
           </div>
 
-          <div className="bg-slate-50 p-6 rounded-xl space-y-2">
-            <h3 className="text-xl font-bold">운동 코칭</h3>
-            <p><strong>호흡:</strong> {selectedExercise.guide.breathing}</p>
-            <p><strong>자세 팁:</strong> {selectedExercise.guide.posture_tip}</p>
-            <p className="text-red-600">
-              <strong>주의:</strong> {selectedExercise.guide.common_mistake}
-            </p>
-          </div>
+          {/* ===== 동작 가이드 ===== */}
+          <div className="bg-white p-6 rounded-2xl border space-y-4">
+            <h3 className="text-lg font-bold">동작 가이드</h3>
 
-          <div>
-            <h3 className="text-xl font-bold mb-4">동작 가이드</h3>
-            <ul className="space-y-4">
+            <ul className="space-y-3">
               {selectedExercise.steps.map(step => (
-                <li key={step.order}>
-                  <strong>
-                    STEP {step.order}. {step.title}
+                <li key={step.order} className="text-[14px]">
+                  <strong className="text-emerald-600">
+                    STEP {step.order}
                   </strong>
-                  <p>{step.description}</p>
+                  <span className="ml-2 font-semibold">{step.title}</span>
+                  <p className="text-slate-600 mt-1">
+                    {step.description}
+                  </p>
                 </li>
               ))}
             </ul>
           </div>
 
-          <div className="bg-emerald-50 p-6 rounded-xl space-y-2">
-            <h3 className="text-xl font-bold">운동 효과</h3>
-            <p><strong>타겟 근육:</strong> {selectedExercise.effects.target_muscles.join(', ')}</p>
-            <p><strong>주요 효과:</strong> {selectedExercise.effects.primary}</p>
-            <p><strong>부가 효과:</strong> {selectedExercise.effects.secondary.join(', ')}</p>
-            <p><strong>추천 대상:</strong> {selectedExercise.effects.recommended_for.join(', ')}</p>
-            <p className="text-red-600 text-sm">⚠ {selectedExercise.effects.caution}</p>
+          {/* ===== 운동 효과 ===== */}
+          <div className="bg-slate-50 p-6 rounded-2xl space-y-3">
+            <h3 className="text-lg font-bold">운동 효과</h3>
+
+            <p className="text-[14px]">
+              <strong className="text-emerald-600">타겟 근육</strong> : {selectedExercise.effects.target_muscles.join(', ')}
+            </p>
+            <p className="text-[14px]">
+              <strong className="text-emerald-600">주요 효과</strong> : {selectedExercise.effects.primary}
+            </p>
+            <p className="text-[14px]">
+              <strong className="text-emerald-600">부가 효과</strong> : {selectedExercise.effects.secondary.join(', ')}
+            </p>
+            <p className="text-[14px]">
+              <strong className="text-emerald-600">추천 대상</strong> : {selectedExercise.effects.recommended_for.join(', ')}
+            </p>
+
+            <p className="text-red-600 text-[13px] mt-2">
+              ⚠ {selectedExercise.effects.caution}
+            </p>
           </div>
         </div>
       )}
