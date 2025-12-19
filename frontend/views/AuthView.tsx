@@ -31,6 +31,9 @@ const AuthView: React.FC<AuthViewProps> = ({ onLoginSuccess }) => {
         try {
             if (isLoginMode) {
                 const user = await login(email, password);
+                localStorage.setItem("health_hub_is_logged_in", "true");
+localStorage.setItem("health_hub_user_id", String(user.id));
+localStorage.setItem("health_hub_user", JSON.stringify(user));
                 onLoginSuccess(user);
             } else {
                 const settings: any = {
@@ -46,6 +49,9 @@ const AuthView: React.FC<AuthViewProps> = ({ onLoginSuccess }) => {
                 await register(settings);
                 // Auto login after register or ask user to login
                 const user = await login(email, password);
+                localStorage.setItem("health_hub_is_logged_in", "true");
+localStorage.setItem("health_hub_user_id", String(user.id));
+localStorage.setItem("health_hub_user", JSON.stringify(user));
                 onLoginSuccess(user);
             }
         } catch (err: any) {
