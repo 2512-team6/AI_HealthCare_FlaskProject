@@ -1,6 +1,7 @@
 /// <reference types="vite/client" />
 
 // services/openaiService.ts
+import { API_BASE_URL } from "./api";
 
 export interface DietRequest {
   age: number;
@@ -20,8 +21,6 @@ export interface DietRequest {
 // const OPENAI_API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
 
 // ✅ Flask 백엔드 API 주소
-const API_BASE_URL = 'http://localhost:5000/api';
-
 export async function getDietRecommendation(req: DietRequest) {
   try {
     const res = await fetch(`${API_BASE_URL}/ai/meal`, {

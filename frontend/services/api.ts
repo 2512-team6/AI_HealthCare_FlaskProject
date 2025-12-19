@@ -1,6 +1,6 @@
 import { UserSettings, HealthGoal } from '../types';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+export const API_BASE_URL = 'https://port-0-ai-healthcare-mjcarnfi091d2bc8.sel3.cloudtype.app/api';
 
 export interface DBUser {
     id: number;
@@ -65,14 +65,14 @@ export const register = async (userData: any): Promise<void> => {
     }
 };
 
-export const updateUser = async (userId: number, settings: any): Promise<DBUser> => {
+export const updateUser = async (user_id: number, settings: any): Promise<DBUser> => {
     // Backend expects snake_case for target_weight
     const payload = {
         ...settings,
         target_weight: settings.target_weight
     };
 
-    const response = await fetch(`${API_BASE_URL}/users/${userId}`, {
+    const response = await fetch(`${API_BASE_URL}/users/${user_id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
@@ -122,4 +122,30 @@ export const addHealthMetric = async (metric: any): Promise<void> => {
         const data = await response.json();
         throw new Error(data.error || 'Failed to add health metric');
     }
+};
+
+
+
+export const getWeightRecords = async (userId: number) => {
+  const res = await fetch(`${API_BASE_URL}/weight/${userId}`);
+  if (!res.ok) throw new Error("체중 데이터 로딩 실패");
+  return res.json();
+};
+
+export const getWorkoutRecords = async (userId: number) => {
+  const res = await fetch(`${API_BASE_URL}/workouts/${userId}`);
+  if (!res.ok) throw new Error("운동 데이터 로딩 실패");
+  return res.json();
+};
+
+export const getHealthRecords = async (userId: number) => {
+  const res = await fetch(`${API_BASE_URL}/health/${userId}`);
+  if (!res.ok) throw new Error("건강 데이터 로딩 실패");
+  return res.json();
+};
+
+export const getUserById = async (userId: number): Promise<DBUser> => {
+  const res = await fetch(`${API_BASE_URL}/users/${userId}`);
+  if (!res.ok) throw new Error("유저 정보 조회 실패");
+  return res.json();
 };
