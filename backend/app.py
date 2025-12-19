@@ -133,6 +133,27 @@ def register():
         if conn.is_connected():
             cursor.close()
             conn.close()
+            
+@app.route('/api/users/<int:user_id>', methods=['GET'])
+def get_user_by_id(user_id):
+    conn = get_db_connection()
+    if not conn:
+        return jsonify({"error": "Database connection failed"}), 500
+
+    try:
+        cursor = conn.cursor(dictionary=True)
+        cursor.execute(
+            "SELECT id, email, name, height, target_weight, goal, age, gender FROM users WHERE id = %s",
+            (user_id,)
+        )
+        user = cursor.fetchone()
+        if not user:
+            return jsonify({"error": "User not found"}), 404
+        return jsonify(user)
+    finally:
+        cursor.close()
+        conn.close()
+
 
 @app.route('/api/users/<int:user_id>', methods=['PUT'])
 def update_user(user_id):
@@ -331,6 +352,20 @@ def add_weight_record():
 # =========================
 # WORKOUT
 # =========================
+@app.route('/api/workouts/<int:user_id>', methods=['GET'])
+def get_workout_records(user_id):
+    conn = get_db_connection()
+    try:
+        cursor = conn.cursor(dictionary=True)
+        cursor.execute(
+            "SELECT * FROM workout_records WHERE user_id = %s ORDER BY date ASC",
+            (user_id,)
+        )
+        return jsonify(cursor.fetchall())
+    finally:
+        cursor.close()
+        conn.close()
+
 @app.route('/api/workouts', methods=['POST'])
 def add_workout_record():
     data = request.json
@@ -377,6 +412,20 @@ def add_workout_record():
 # =========================
 # HEALTH
 # =========================
+@app.route('/api/health/<int:user_id>', methods=['GET'])
+def get_health_records(user_id):
+    conn = get_db_connection()
+    try:
+        cursor = conn.cursor(dictionary=True)
+        cursor.execute(
+            "SELECT * FROM health_metrics WHERE user_id = %s ORDER BY date ASC",
+            (user_id,)
+        )
+        return jsonify(cursor.fetchall())
+    finally:
+        cursor.close()
+        conn.close()
+
 @app.route('/api/health', methods=['POST'])
 def add_health_metric():
     data = request.json
