@@ -77,7 +77,7 @@ const Dashboard: React.FC<DashboardProps> = ({ state }) => {
             <div className="space-y-1">
               <div className="flex justify-between text-xs font-bold text-slate-400">
                 <span>목표 체중 ({state.settings.target_weight}kg)</span>
-                <span>남은 거리: {Math.abs(latestWeight - state.settings.target_weight).toFixed(1)}kg</span>
+                <span>남은 체중: {Math.abs(latestWeight - state.settings.target_weight).toFixed(1)}kg</span>
               </div>
               <div className="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
                 <div 

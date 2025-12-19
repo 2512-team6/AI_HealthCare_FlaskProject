@@ -52,7 +52,7 @@ useEffect(() => {
 
   const loadDBData = async () => {
     try {
-      const [weights, workouts, healths] = await Promise.all([
+      const [weights, workouts, healths, dbUser] = await Promise.all([
         getWeightRecords(currentuser_id),
         getWorkoutRecords(currentuser_id),
         getHealthRecords(currentuser_id),
@@ -60,7 +60,8 @@ useEffect(() => {
       ]);
 
       setState(prev => ({
-        ...prev,               // settings 유지
+        ...prev,
+        settings: mapDBUserToSettings(dbUser),
         weightLogs: weights,
         workouts,
         healthLogs: healths
@@ -72,6 +73,7 @@ useEffect(() => {
 
   loadDBData();
 }, [isLoggedIn, currentuser_id]);
+
 
   const handleLoginSuccess = async (dbUser: DBUser) => {
   setIsLoggedIn(true);
