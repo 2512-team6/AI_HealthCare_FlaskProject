@@ -1,0 +1,3010 @@
+[
+  {
+    "id": 3001,
+    "part_id": 1,
+    "part_name": "목",
+    "name": "넥 플렉션 스트레치",
+    "summary": "목 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 3.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "넥 플렉션 스트레치을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "목 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "목 주요 근육"
+      ],
+      "primary": "목 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "목 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3002,
+    "part_id": 1,
+    "part_name": "목",
+    "name": "넥 익스텐션 스트레치",
+    "summary": "목 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 3.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "넥 익스텐션 스트레치을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "목 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "목 주요 근육"
+      ],
+      "primary": "목 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "목 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3003,
+    "part_id": 1,
+    "part_name": "목",
+    "name": "측면 넥 스트레치",
+    "summary": "목 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 4.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "측면 넥 스트레치을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "목 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "목 주요 근육"
+      ],
+      "primary": "목 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "목 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3004,
+    "part_id": 1,
+    "part_name": "목",
+    "name": "넥 로테이션",
+    "summary": "목 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 4.7,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "넥 로테이션을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "목 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "목 주요 근육"
+      ],
+      "primary": "목 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "목 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3005,
+    "part_id": 1,
+    "part_name": "목",
+    "name": "친 턱 운동",
+    "summary": "목 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 5.1,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "친 턱 운동을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "목 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "목 주요 근육"
+      ],
+      "primary": "목 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "목 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3006,
+    "part_id": 1,
+    "part_name": "목",
+    "name": "상부 승모 스트레치",
+    "summary": "목 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 5.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "상부 승모 스트레치을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "목 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "목 주요 근육"
+      ],
+      "primary": "목 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "목 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3007,
+    "part_id": 1,
+    "part_name": "목",
+    "name": "경추 견인 스트레치",
+    "summary": "목 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 5.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "경추 견인 스트레치을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "목 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "목 주요 근육"
+      ],
+      "primary": "목 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "목 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3008,
+    "part_id": 1,
+    "part_name": "목",
+    "name": "목 아이소메트릭",
+    "summary": "목 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 6.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "목 아이소메트릭을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "목 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "목 주요 근육"
+      ],
+      "primary": "목 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "목 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3009,
+    "part_id": 2,
+    "part_name": "어깨",
+    "name": "레터럴 레이즈",
+    "summary": "어깨 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 3.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "레터럴 레이즈을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "어깨 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "어깨 주요 근육"
+      ],
+      "primary": "어깨 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "어깨 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3010,
+    "part_id": 2,
+    "part_name": "어깨",
+    "name": "프론트 레이즈",
+    "summary": "어깨 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 3.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "프론트 레이즈을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "어깨 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "어깨 주요 근육"
+      ],
+      "primary": "어깨 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "어깨 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3011,
+    "part_id": 2,
+    "part_name": "어깨",
+    "name": "숄더 프레스",
+    "summary": "어깨 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 4.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "숄더 프레스을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "어깨 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "어깨 주요 근육"
+      ],
+      "primary": "어깨 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "어깨 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3012,
+    "part_id": 2,
+    "part_name": "어깨",
+    "name": "리어 델트 플라이",
+    "summary": "어깨 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 4.7,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "리어 델트 플라이을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "어깨 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "어깨 주요 근육"
+      ],
+      "primary": "어깨 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "어깨 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3013,
+    "part_id": 2,
+    "part_name": "어깨",
+    "name": "업라이트 로우",
+    "summary": "어깨 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 5.1,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "업라이트 로우을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "어깨 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "어깨 주요 근육"
+      ],
+      "primary": "어깨 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "어깨 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3014,
+    "part_id": 2,
+    "part_name": "어깨",
+    "name": "덤벨 슈러그",
+    "summary": "어깨 주요 근육을 자극하는 대표 운동",
+    "equipment": "덤벨",
+    "difficulty": "중급",
+    "met": 5.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "덤벨 슈러그을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "어깨 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "어깨 주요 근육"
+      ],
+      "primary": "어깨 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "어깨 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3015,
+    "part_id": 2,
+    "part_name": "어깨",
+    "name": "페이스 풀",
+    "summary": "어깨 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 5.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "페이스 풀을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "어깨 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "어깨 주요 근육"
+      ],
+      "primary": "어깨 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "어깨 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3016,
+    "part_id": 2,
+    "part_name": "어깨",
+    "name": "아놀드 프레스",
+    "summary": "어깨 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 6.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "아놀드 프레스을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "어깨 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "어깨 주요 근육"
+      ],
+      "primary": "어깨 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "어깨 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3017,
+    "part_id": 3,
+    "part_name": "가슴",
+    "name": "푸쉬업",
+    "summary": "가슴 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 3.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "푸쉬업을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "가슴 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "가슴 주요 근육"
+      ],
+      "primary": "가슴 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "가슴 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3018,
+    "part_id": 3,
+    "part_name": "가슴",
+    "name": "벤치 프레스",
+    "summary": "가슴 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 3.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "벤치 프레스을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "가슴 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "가슴 주요 근육"
+      ],
+      "primary": "가슴 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "가슴 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3019,
+    "part_id": 3,
+    "part_name": "가슴",
+    "name": "인클라인 벤치 프레스",
+    "summary": "가슴 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 4.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "인클라인 벤치 프레스을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "가슴 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "가슴 주요 근육"
+      ],
+      "primary": "가슴 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "가슴 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3020,
+    "part_id": 3,
+    "part_name": "가슴",
+    "name": "디클라인 벤치 프레스",
+    "summary": "가슴 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 4.7,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "디클라인 벤치 프레스을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "가슴 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "가슴 주요 근육"
+      ],
+      "primary": "가슴 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "가슴 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3021,
+    "part_id": 3,
+    "part_name": "가슴",
+    "name": "덤벨 플라이",
+    "summary": "가슴 주요 근육을 자극하는 대표 운동",
+    "equipment": "덤벨",
+    "difficulty": "중급",
+    "met": 5.1,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "덤벨 플라이을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "가슴 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "가슴 주요 근육"
+      ],
+      "primary": "가슴 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "가슴 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3022,
+    "part_id": 3,
+    "part_name": "가슴",
+    "name": "체스트 프레스 머신",
+    "summary": "가슴 주요 근육을 자극하는 대표 운동",
+    "equipment": "머신",
+    "difficulty": "중급",
+    "met": 5.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "체스트 프레스 머신을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "가슴 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "가슴 주요 근육"
+      ],
+      "primary": "가슴 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "가슴 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3023,
+    "part_id": 3,
+    "part_name": "가슴",
+    "name": "케이블 크로스오버",
+    "summary": "가슴 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 5.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "케이블 크로스오버을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "가슴 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "가슴 주요 근육"
+      ],
+      "primary": "가슴 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "가슴 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3024,
+    "part_id": 3,
+    "part_name": "가슴",
+    "name": "딥스",
+    "summary": "가슴 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 6.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "딥스을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "가슴 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "가슴 주요 근육"
+      ],
+      "primary": "가슴 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "가슴 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3025,
+    "part_id": 4,
+    "part_name": "등",
+    "name": "랫 풀다운",
+    "summary": "등 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 3.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "랫 풀다운을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "등 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "등 주요 근육"
+      ],
+      "primary": "등 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "등 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3026,
+    "part_id": 4,
+    "part_name": "등",
+    "name": "풀업",
+    "summary": "등 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 3.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "풀업을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "등 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "등 주요 근육"
+      ],
+      "primary": "등 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "등 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3027,
+    "part_id": 4,
+    "part_name": "등",
+    "name": "시티드 케이블 로우",
+    "summary": "등 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 4.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "시티드 케이블 로우을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "등 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "등 주요 근육"
+      ],
+      "primary": "등 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "등 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3028,
+    "part_id": 4,
+    "part_name": "등",
+    "name": "바벨 로우",
+    "summary": "등 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 4.7,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "바벨 로우을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "등 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "등 주요 근육"
+      ],
+      "primary": "등 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "등 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3029,
+    "part_id": 4,
+    "part_name": "등",
+    "name": "덤벨 원암 로우",
+    "summary": "등 주요 근육을 자극하는 대표 운동",
+    "equipment": "덤벨",
+    "difficulty": "중급",
+    "met": 5.1,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "덤벨 원암 로우을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "등 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "등 주요 근육"
+      ],
+      "primary": "등 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "등 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3030,
+    "part_id": 4,
+    "part_name": "등",
+    "name": "데드리프트",
+    "summary": "등 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 5.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "데드리프트을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "등 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "등 주요 근육"
+      ],
+      "primary": "등 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "등 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3031,
+    "part_id": 4,
+    "part_name": "등",
+    "name": "페이스 풀",
+    "summary": "등 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 5.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "페이스 풀을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "등 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "등 주요 근육"
+      ],
+      "primary": "등 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "등 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3032,
+    "part_id": 4,
+    "part_name": "등",
+    "name": "백 익스텐션",
+    "summary": "등 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 6.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "백 익스텐션을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "등 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "등 주요 근육"
+      ],
+      "primary": "등 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "등 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3033,
+    "part_id": 5,
+    "part_name": "복부",
+    "name": "크런치",
+    "summary": "복부 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 3.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "크런치을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "복부 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "복부 주요 근육"
+      ],
+      "primary": "복부 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "복부 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3034,
+    "part_id": 5,
+    "part_name": "복부",
+    "name": "플랭크",
+    "summary": "복부 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 3.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "플랭크을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "복부 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "복부 주요 근육"
+      ],
+      "primary": "복부 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "복부 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3035,
+    "part_id": 5,
+    "part_name": "복부",
+    "name": "레그 레이즈",
+    "summary": "복부 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 4.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "레그 레이즈을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "복부 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "복부 주요 근육"
+      ],
+      "primary": "복부 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "복부 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3036,
+    "part_id": 5,
+    "part_name": "복부",
+    "name": "마운틴 클라이머",
+    "summary": "복부 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 4.7,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "마운틴 클라이머을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "복부 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "복부 주요 근육"
+      ],
+      "primary": "복부 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "복부 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3037,
+    "part_id": 5,
+    "part_name": "복부",
+    "name": "러시안 트위스트",
+    "summary": "복부 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 5.1,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "러시안 트위스트을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "복부 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "복부 주요 근육"
+      ],
+      "primary": "복부 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "복부 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3038,
+    "part_id": 5,
+    "part_name": "복부",
+    "name": "바이시클 크런치",
+    "summary": "복부 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 5.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "바이시클 크런치을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "복부 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "복부 주요 근육"
+      ],
+      "primary": "복부 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "복부 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3039,
+    "part_id": 5,
+    "part_name": "복부",
+    "name": "힐 터치",
+    "summary": "복부 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 5.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "힐 터치을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "복부 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "복부 주요 근육"
+      ],
+      "primary": "복부 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "복부 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3040,
+    "part_id": 5,
+    "part_name": "복부",
+    "name": "행잉 니 레이즈",
+    "summary": "복부 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 6.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "행잉 니 레이즈을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "복부 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "복부 주요 근육"
+      ],
+      "primary": "복부 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "복부 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3041,
+    "part_id": 6,
+    "part_name": "하체",
+    "name": "스쿼트",
+    "summary": "하체 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 3.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "스쿼트을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "하체 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "하체 주요 근육"
+      ],
+      "primary": "하체 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "하체 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3042,
+    "part_id": 6,
+    "part_name": "하체",
+    "name": "런지",
+    "summary": "하체 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 3.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "런지을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "하체 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "하체 주요 근육"
+      ],
+      "primary": "하체 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "하체 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3043,
+    "part_id": 6,
+    "part_name": "하체",
+    "name": "레그 프레스",
+    "summary": "하체 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 4.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "레그 프레스을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "하체 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "하체 주요 근육"
+      ],
+      "primary": "하체 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "하체 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3044,
+    "part_id": 6,
+    "part_name": "하체",
+    "name": "레그 컬",
+    "summary": "하체 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 4.7,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "레그 컬을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "하체 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "하체 주요 근육"
+      ],
+      "primary": "하체 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "하체 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3045,
+    "part_id": 6,
+    "part_name": "하체",
+    "name": "레그 익스텐션",
+    "summary": "하체 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 5.1,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "레그 익스텐션을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "하체 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "하체 주요 근육"
+      ],
+      "primary": "하체 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "하체 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3046,
+    "part_id": 6,
+    "part_name": "하체",
+    "name": "카프 레이즈",
+    "summary": "하체 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 5.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "카프 레이즈을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "하체 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "하체 주요 근육"
+      ],
+      "primary": "하체 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "하체 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3047,
+    "part_id": 6,
+    "part_name": "하체",
+    "name": "불가리안 스플릿 스쿼트",
+    "summary": "하체 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 5.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "불가리안 스플릿 스쿼트을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "하체 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "하체 주요 근육"
+      ],
+      "primary": "하체 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "하체 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3048,
+    "part_id": 6,
+    "part_name": "하체",
+    "name": "스텝업",
+    "summary": "하체 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 6.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "스텝업을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "하체 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "하체 주요 근육"
+      ],
+      "primary": "하체 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "하체 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3049,
+    "part_id": 7,
+    "part_name": "팔",
+    "name": "덤벨 컬",
+    "summary": "팔 주요 근육을 자극하는 대표 운동",
+    "equipment": "덤벨",
+    "difficulty": "초급",
+    "met": 3.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "덤벨 컬을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "팔 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "팔 주요 근육"
+      ],
+      "primary": "팔 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "팔 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3050,
+    "part_id": 7,
+    "part_name": "팔",
+    "name": "바벨 컬",
+    "summary": "팔 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 3.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "바벨 컬을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "팔 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "팔 주요 근육"
+      ],
+      "primary": "팔 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "팔 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3051,
+    "part_id": 7,
+    "part_name": "팔",
+    "name": "해머 컬",
+    "summary": "팔 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 4.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "해머 컬을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "팔 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "팔 주요 근육"
+      ],
+      "primary": "팔 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "팔 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3052,
+    "part_id": 7,
+    "part_name": "팔",
+    "name": "컨센트레이션 컬",
+    "summary": "팔 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 4.7,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "컨센트레이션 컬을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "팔 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "팔 주요 근육"
+      ],
+      "primary": "팔 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "팔 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3053,
+    "part_id": 7,
+    "part_name": "팔",
+    "name": "트라이셉스 푸시다운",
+    "summary": "팔 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 5.1,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "트라이셉스 푸시다운을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "팔 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "팔 주요 근육"
+      ],
+      "primary": "팔 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "팔 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3054,
+    "part_id": 7,
+    "part_name": "팔",
+    "name": "라잉 트라이셉스 익스텐션",
+    "summary": "팔 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 5.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "라잉 트라이셉스 익스텐션을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "팔 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "팔 주요 근육"
+      ],
+      "primary": "팔 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "팔 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3055,
+    "part_id": 7,
+    "part_name": "팔",
+    "name": "딥스",
+    "summary": "팔 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 5.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "딥스을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "팔 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "팔 주요 근육"
+      ],
+      "primary": "팔 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "팔 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3056,
+    "part_id": 7,
+    "part_name": "팔",
+    "name": "킥백",
+    "summary": "팔 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 6.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "킥백을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "팔 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "팔 주요 근육"
+      ],
+      "primary": "팔 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "팔 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3057,
+    "part_id": 8,
+    "part_name": "엉덩이",
+    "name": "힙 쓰러스트",
+    "summary": "엉덩이 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 3.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "힙 쓰러스트을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "엉덩이 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "엉덩이 주요 근육"
+      ],
+      "primary": "엉덩이 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "엉덩이 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3058,
+    "part_id": 8,
+    "part_name": "엉덩이",
+    "name": "글루트 브릿지",
+    "summary": "엉덩이 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 3.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "글루트 브릿지을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "엉덩이 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "엉덩이 주요 근육"
+      ],
+      "primary": "엉덩이 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "엉덩이 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3059,
+    "part_id": 8,
+    "part_name": "엉덩이",
+    "name": "케이블 킥백",
+    "summary": "엉덩이 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "초급",
+    "met": 4.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "케이블 킥백을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "엉덩이 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "엉덩이 주요 근육"
+      ],
+      "primary": "엉덩이 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "엉덩이 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3060,
+    "part_id": 8,
+    "part_name": "엉덩이",
+    "name": "힙 어브덕션",
+    "summary": "엉덩이 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 4.7,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "힙 어브덕션을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "엉덩이 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "엉덩이 주요 근육"
+      ],
+      "primary": "엉덩이 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "엉덩이 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3061,
+    "part_id": 8,
+    "part_name": "엉덩이",
+    "name": "불가리안 스쿼트",
+    "summary": "엉덩이 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 5.1,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "불가리안 스쿼트을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "엉덩이 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "엉덩이 주요 근육"
+      ],
+      "primary": "엉덩이 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "엉덩이 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3062,
+    "part_id": 8,
+    "part_name": "엉덩이",
+    "name": "루마니안 데드리프트",
+    "summary": "엉덩이 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "중급",
+    "met": 5.5,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "루마니안 데드리프트을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "엉덩이 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "엉덩이 주요 근육"
+      ],
+      "primary": "엉덩이 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "엉덩이 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3063,
+    "part_id": 8,
+    "part_name": "엉덩이",
+    "name": "스미스 스쿼트",
+    "summary": "엉덩이 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 5.9,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "스미스 스쿼트을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "엉덩이 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "엉덩이 주요 근육"
+      ],
+      "primary": "엉덩이 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "엉덩이 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  },
+  {
+    "id": 3064,
+    "part_id": 8,
+    "part_name": "엉덩이",
+    "name": "프로그 펌프",
+    "summary": "엉덩이 주요 근육을 자극하는 대표 운동",
+    "equipment": "맨몸",
+    "difficulty": "고급",
+    "met": 6.3,
+    "guide": {
+      "breathing": "힘을 쓰는 구간에서 숨을 내쉬고 돌아올 때 들이마신다.",
+      "posture_tip": "반동 없이 목표 근육에 집중한다.",
+      "common_mistake": "과도한 중량 사용 또는 관성 사용"
+    },
+    "steps": [
+      {
+        "order": 1,
+        "title": "시작 자세",
+        "description": "프로그 펌프을 수행하기 위한 안정적인 시작 자세를 만든다."
+      },
+      {
+        "order": 2,
+        "title": "동작 수행",
+        "description": "엉덩이 근육을 의식하며 천천히 수축과 이완을 반복한다."
+      },
+      {
+        "order": 3,
+        "title": "마무리",
+        "description": "자세를 유지한 채 천천히 시작 위치로 돌아온다."
+      }
+    ],
+    "effects": {
+      "target_muscles": [
+        "엉덩이 주요 근육"
+      ],
+      "primary": "엉덩이 근력 강화",
+      "secondary": [
+        "근지구력 향상",
+        "자세 안정성 개선"
+      ],
+      "recommended_for": [
+        "엉덩이 근력이 약한 사용자",
+        "기초 체력 향상이 필요한 경우"
+      ],
+      "caution": "통증 발생 시 즉시 중단"
+    }
+  }
+]
