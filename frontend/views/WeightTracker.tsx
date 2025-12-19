@@ -32,13 +32,23 @@ const WeightTracker: React.FC<WeightTrackerProps> = ({ state, onAddLog }) => {
   );
 
   const handleAdd = () => {
-    if (!newWeight) return;
-    onAddLog({
-      date,
-      weight: parseFloat(newWeight)
-    });
-    setNewWeight('');
-  };
+  if (!newWeight) return;
+
+  const weightNum = parseFloat(newWeight);
+  
+  // 1. BMI 계산 (현재 입력된 체중과 설정의 키 사용)
+  const currentBmi = calculateBMI(weightNum, state.settings.height).value;
+
+  // 2. BMI를 포함하여 데이터 전달
+  onAddLog({
+    date,
+    weight: weightNum,
+    // @ts-ignore (만약 타입 정의에 bmi가 없다면 임시로 추가하거나 interface 수정)
+    bmi: parseFloat(currentBmi) 
+  });
+
+  setNewWeight('');
+};
 
   return (
     <div className="max-w-4xl mx-auto space-y-6 pb-10">

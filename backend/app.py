@@ -304,6 +304,30 @@ def get_weight_records(user_id):
             cursor.close()
             conn.close()
 
+@app.route('/api/weight', methods=['POST'])
+def add_weight_record():
+    data = request.json
+    user_id = data.get('user_id')
+    weight = data.get('weight')
+    date = data.get('date')
+    
+    # bmi가 요청에 없으면 0.0으로 설정
+    bmi = data.get('bmi', 0.0) 
+
+    conn = get_db_connection()
+    try:
+        cursor = conn.cursor()
+        # INSERT 문에 bmi를 반드시 포함해야 합니다.
+        query = "INSERT INTO weight_records (user_id, weight, date, bmi) VALUES (%s, %s, %s, %s)"
+        cursor.execute(query, (user_id, weight, date, bmi))
+        conn.commit()
+        return jsonify({"message": "success"}), 201
+    except Error as e:
+        return jsonify({"error": str(e)}), 500
+    finally:
+        if conn.is_connected():
+            cursor.close()
+            conn.close()
 # =========================
 # WORKOUT
 # =========================
