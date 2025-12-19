@@ -11,9 +11,9 @@ import SettingsView from './views/SettingsView';
 import { Menu, X, Heart } from 'lucide-react';
 import { calculateBMI } from './services/healthLogic';
 import AuthView from './views/AuthView';
-import { mapDBUserToSettings, DBUser, updateUser, addWeightRecord, addWorkoutRecord, addHealthMetric } from './services/api';
+import { mapDBUserToSettings, DBUser, updateUser, addWeightRecord, addWorkoutRecord, addHealthMetric, getWeightRecords, getWorkoutRecords, getHealthRecords, getUserById } from './services/api';
 import ExerciseGuide from './views/ExerciseGuide';
-import { v4 as uuidv4 } from 'uuid'; // ✅ 추가
+import { v4 as uuidv4 } from 'uuid'; // 추가
 
 const INITIAL_STATE: AppState = {
   settings: {
@@ -35,50 +35,78 @@ const App: React.FC = () => {
   const [state, setState] = useState<AppState>(INITIAL_STATE);
   const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(true);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [currentUserId, setCurrentUserId] = useState<number | null>(null);
+  const [currentuser_id, setCurrentuser_id] = useState<number | null>(null);
 
   useEffect(() => {
-    const saved = localStorage.getItem('health_hub_state_v3');
-    const savedLogin = localStorage.getItem('health_hub_is_logged_in');
-    const savedUserId = localStorage.getItem('health_hub_user_id');
+  const savedLogin = localStorage.getItem('health_hub_is_logged_in');
+  const saveduser_id = localStorage.getItem('health_hub_user_id');
 
-    if (saved && savedLogin === 'true') {
-      setState(JSON.parse(saved));
-      setIsLoggedIn(true);
-      if (savedUserId) setCurrentUserId(Number(savedUserId));
-    }
-  }, []);
-
-  useEffect(() => {
-    if (isLoggedIn) {
-      localStorage.setItem('health_hub_state_v3', JSON.stringify(state));
-      localStorage.setItem('health_hub_is_logged_in', 'true');
-      if (currentUserId) localStorage.setItem('health_hub_user_id', String(currentUserId));
-    }
-  }, [state, isLoggedIn, currentUserId]);
-
-  const handleLoginSuccess = (dbUser: DBUser) => {
-    setState({
-      settings: mapDBUserToSettings(dbUser),
-      weightLogs: [],
-      workouts: [],
-      healthLogs: []
-    });
+  if (savedLogin === 'true' && saveduser_id) {
     setIsLoggedIn(true);
-    setCurrentUserId(dbUser.id);
+    setCurrentuser_id(Number(saveduser_id));
+  }
+}, []);
+
+useEffect(() => {
+  if (!isLoggedIn || !currentuser_id) return;
+
+  const loadDBData = async () => {
+    try {
+      const [weights, workouts, healths] = await Promise.all([
+        getWeightRecords(currentuser_id),
+        getWorkoutRecords(currentuser_id),
+        getHealthRecords(currentuser_id),
+        getUserById(currentuser_id)
+      ]);
+
+      setState(prev => ({
+        ...prev,               // settings 유지
+        weightLogs: weights,
+        workouts,
+        healthLogs: healths
+      }));
+    } catch (e) {
+      console.error("새로고침 후 DB 데이터 로딩 실패", e);
+    }
   };
+
+  loadDBData();
+}, [isLoggedIn, currentuser_id]);
+
+  const handleLoginSuccess = async (dbUser: DBUser) => {
+  setIsLoggedIn(true);
+  setCurrentuser_id(dbUser.id);
+
+  try {
+    const [weights, workouts, healths] = await Promise.all([
+  getWeightRecords(dbUser.id),
+  getWorkoutRecords(dbUser.id),
+  getHealthRecords(dbUser.id)
+]);
+
+setState({
+  settings: mapDBUserToSettings(dbUser),
+  weightLogs: weights,
+  workouts: workouts,
+  healthLogs: healths
+});
+
+  } catch (e) {
+    console.error("DB 데이터 로딩 실패", e);
+  }
+};
+
 
   const handleLogout = () => {
     setIsLoggedIn(false);
-    setCurrentUserId(null);
-    localStorage.removeItem('health_hub_is_logged_in');
-    localStorage.removeItem('health_hub_user_id');
+    setCurrentuser_id(null);
+    localStorage.clear(); // 가장 안전
     setState(INITIAL_STATE);
   };
 
   // ✅ 핵심 수정 영역
   const handleAddWeightLog = async (log: { date: string; weight: number }) => {
-    if (!currentUserId) return;
+    if (!currentuser_id) return;
 
     const bmiResult = calculateBMI(log.weight, state.settings.height);
     const weightRecordId = uuidv4(); // ✅ UUID 생성
@@ -86,7 +114,7 @@ const App: React.FC = () => {
     try {
       await addWeightRecord({
         id: weightRecordId,          // ✅ 서버로 반드시 전달
-        user_id: currentUserId,
+        user_id: currentuser_id,
         date: log.date,
         weight: log.weight,
         height: state.settings.height,
@@ -117,10 +145,10 @@ const App: React.FC = () => {
   };
 
   const handleAddWorkout = async (workout: WorkoutRecord) => {
-    if (!currentUserId) return;
+    if (!currentuser_id) return;
     try {
       await addWorkoutRecord({
-        user_id: currentUserId,
+        user_id: currentuser_id,
         ...workout
       });
       setState(prev => ({ ...prev, workouts: [...prev.workouts, workout] }));
@@ -141,10 +169,10 @@ const App: React.FC = () => {
   };
 
   const handleAddHealthLog = async (log: HealthMetrics) => {
-    if (!currentUserId) return;
+    if (!currentuser_id) return;
     try {
       await addHealthMetric({
-        user_id: currentUserId,
+        user_id: currentuser_id,
         ...log
       });
       setState(prev => ({ ...prev, healthLogs: [...prev.healthLogs, log] }));
@@ -156,9 +184,9 @@ const App: React.FC = () => {
   };
 
   const handleUpdateSettings = async (settings: UserSettings) => {
-    if (!currentUserId) return;
+    if (!currentuser_id) return;
     try {
-      const updatedUser = await updateUser(currentUserId, {
+      const updatedUser = await updateUser(currentuser_id, {
         name: settings.name,
         height: settings.height,
         target_weight: settings.target_weight,
