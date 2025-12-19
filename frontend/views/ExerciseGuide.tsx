@@ -58,6 +58,20 @@ const PARTS = [
 ];
 
 /* =========================
+   부위별 대표 이미지 (UI 전용)
+========================= */
+const PART_IMAGES: Record<number, string> = {
+  1: 'https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=1200&q=80' , // 목
+  2: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1200&q=80' , // 어깨
+  3: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=80', // 가슴
+  4: 'https://images.pexels.com/photos/3838937/pexels-photo-3838937.jpeg?auto=compress&cs=tinysrgb&w=1200' , // 등
+  5: 'https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1200' , // 복부
+  6: 'https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg?auto=compress&cs=tinysrgb&w=1200' , // 하체
+  7: 'https://images.pexels.com/photos/3757376/pexels-photo-3757376.jpeg?auto=compress&cs=tinysrgb&w=1200' , // 팔
+  8: 'https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg?auto=compress&cs=tinysrgb&w=1200' , // 엉덩이
+};
+
+/* =========================
    컴포넌트
 ========================= */
 const ExerciseGuide: React.FC = () => {
@@ -71,15 +85,26 @@ const ExerciseGuide: React.FC = () => {
           1️⃣ 부위 대분류 (3번째 이미지)
       ===================== */}
       {!selectedPart && !selectedExercise && (
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {PARTS.map(part => (
             <button
               key={part.id}
               onClick={() => setSelectedPart(part.id)}
-              className="bg-white p-8 rounded-2xl border text-left hover:shadow-md"
+              className="
+                flex items-center gap-4
+                bg-slate-800 text-white
+                p-6 rounded-2xl
+                hover:bg-slate-700 transition
+              "
             >
-              <h3 className="text-xl font-bold">{part.name}</h3>
-              <p className="text-sm text-slate-600">{part.desc}</p>
+              {/* 아이콘 영역 (임시 원형) */}
+              <div className="w-16 h-16 rounded-full bg-emerald-500 flex items-center justify-center text-lg font-bold">
+                {part.name}
+              </div>
+
+              <div className="text-left">
+                <h3 className="text-lg font-bold">{part.desc}</h3>
+              </div>
             </button>
           ))}
         </div>
@@ -97,6 +122,28 @@ const ExerciseGuide: React.FC = () => {
             ← 목록으로
           </button>
 
+          {/* 부위 대표 이미지 (추가된 부분) */}
+          <div
+            className="h-64 rounded-2xl bg-center bg-cover relative"
+            style={{
+              backgroundImage: `url(${PART_IMAGES[selectedPart]})`,
+            }}
+          >
+            {/* 어두운 오버레이 */}
+            <div className="absolute inset-0 bg-black/40 rounded-2xl" />
+
+            {/* 부위명 텍스트 */}
+            <div className="absolute bottom-6 left-6 text-white">
+              <h2 className="text-3xl font-bold">
+                {PARTS.find(p => p.id === selectedPart)?.name}
+              </h2>
+              <p className="text-sm opacity-90">
+                {PARTS.find(p => p.id === selectedPart)?.desc}
+              </p>
+            </div>
+          </div>
+
+          {/* 기존 운동 카드 목록 (그대로 유지) */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {EXERCISES
               .filter(ex => ex.part_id === selectedPart)
@@ -106,9 +153,9 @@ const ExerciseGuide: React.FC = () => {
                   onClick={() => setSelectedExercise(ex)}
                   className="bg-white p-6 rounded-xl border text-left hover:shadow-md transition"
                 >
-                  <span className="text-xs text-emerald-600 font-semibold">
+                  {/* <span className="text-xs text-emerald-600 font-semibold">
                     {ex.part_name}
-                  </span>
+                  </span> */}
                   <h3 className="font-bold text-lg mt-1">{ex.name}</h3>
                   <p className="text-sm text-slate-600">{ex.summary}</p>
                   <p className="text-xs text-slate-500 mt-2">
