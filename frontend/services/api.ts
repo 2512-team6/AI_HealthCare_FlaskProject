@@ -1,6 +1,6 @@
 import { UserSettings, HealthGoal } from '../types';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+export const API_BASE_URL = 'https://port-0-ai-healthcare-mjcarnfi091d2bc8.sel3.cloudtype.app/api';
 
 export interface DBUser {
     id: number;

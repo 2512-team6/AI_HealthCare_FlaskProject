@@ -1,9 +1,8 @@
 import { DietRequest } from './openaiService'; // 타입만 재사용 가능
-
-const API_BASE = 'http://localhost:5000/api';
+import { API_BASE_URL } from './api';
 
 export async function getDietRecommendation(req: DietRequest) {
-  const res = await fetch(`${API_BASE}/ai/meal`, {
+  const res = await fetch(`${API_BASE_URL}/ai/meal`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(req),
