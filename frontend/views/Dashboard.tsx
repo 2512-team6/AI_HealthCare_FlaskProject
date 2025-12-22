@@ -49,13 +49,13 @@ const Dashboard: React.FC<DashboardProps> = ({ state }) => {
         <div>
           <div className="flex items-center gap-2 mb-1">
             <h2 className="text-2xl font-bold text-slate-800">{state.settings.name} 님</h2>
-            <span className="px-3 py-0.5 bg-blue-50 text-blue-600 text-xs font-bold rounded-full">Lv.12</span>
+            <span className="px-3 py-0.5 bg-blue-50 text-blue-600 text-xs font-bold rounded-full">Lv.1</span>
           </div>
           <p className="text-slate-500 font-medium">관리 목표: <span className="text-blue-600 font-bold">{state.settings.goal}</span></p>
         </div>
         <div className="text-right">
           <p className="text-lg font-bold text-slate-700">{new Date().toLocaleDateString('ko-KR', { month: 'long', day: 'numeric', weekday: 'short' })}</p>
-          <p className="text-sm text-slate-400">AI 건강 도우미가 분석을 완료했습니다.</p>
+          <p className="text-sm text-slate-400">건강 도우미가 분석을 완료했습니다.</p>
         </div>
       </div>
 
