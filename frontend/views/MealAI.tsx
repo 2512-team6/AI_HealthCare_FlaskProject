@@ -17,7 +17,7 @@ const MealAI: React.FC<MealAIProps> = ({ state }) => {
   const [gender, setGender] = useState<string>(state.settings.gender || '남성');
   const [height, setHeight] = useState<number>(state.settings.height || 170);
   const [weight, setWeight] = useState<number>(state.weightLogs[state.weightLogs.length - 1]?.weight || 65);
-  const [goal, setGoal] = useState<string>('체중 감량');
+  const [goal, setGoal] = useState<string>('다이어트');
   const [mealTime, setMealTime] = useState<string>('전체');
   const [activityLevel, setActivityLevel] = useState<string>('가벼운 활동 (주 1-3회 운동)');
   const [allergies, setAllergies] = useState<string>('');
@@ -49,8 +49,8 @@ const MealAI: React.FC<MealAIProps> = ({ state }) => {
     const factor = factors[activityLevel] || 1.2;
     let tdee = bmr * factor;
 
-    if (goal === '체중 감량') tdee -= 500;
-    if (goal === '근육 증가') tdee += 300;
+    if (goal === '다이어트') tdee -= 500;
+    if (goal === '체중 증량') tdee += 300;
     
     return Math.max(1200, Math.round(tdee));
   }, [age, gender, height, weight, activityLevel, goal]);
@@ -87,8 +87,8 @@ AI 조언: ${recommendation.tip}
   };
 
   const dietGoals = [
-    { label: '체중 감량', icon: <TrendingDown size={24} />, color: 'bg-indigo-500' },
-    { label: '근육 증가', icon: <Zap size={24} />, color: 'bg-emerald-500' },
+    { label: '다이어트', icon: <TrendingDown size={24} />, color: 'bg-indigo-500' },
+    { label: '체중 증량', icon: <Zap size={24} />, color: 'bg-emerald-500' },
     { label: '체중 유지', icon: <Repeat size={24} />, color: 'bg-blue-500' },
     { label: '건강 관리', icon: <HeartPulse size={24} />, color: 'bg-rose-500' },
   ];
